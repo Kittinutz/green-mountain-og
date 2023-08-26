@@ -1,7 +1,8 @@
+import HeaderNavigator from '@/components/HeaderNavigator'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const popins = Poppins({ weight: ['400', '600', '800'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={popins.className}>
+        <HeaderNavigator></HeaderNavigator>
+        {children}
+      </body>
     </html>
   )
 }
