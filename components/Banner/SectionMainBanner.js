@@ -7,17 +7,17 @@ import Button from '../Button';
 const SectionMainBanner = () => {
   return (
     <section
-      className='px-28 py-20 mt-[85px] bg-no-repeat bg-clip-border	bg-cover bg-scroll bg-center h-[50px] sm:h-[700px]'
+      className='px-16 py-8 sm:px-28 sm:py-20 mt-[85px] bg-no-repeat bg-clip-border	bg-cover bg-scroll bg-center h-[50px] h-[400px] sm:h-[700px]'
       style={{
         backgroundImage: `url('./asset/banner-image.jpeg')`,
       }}
     >
       <div className='flex flex-col justify-center h-full'>
-        <h1 className="text-[white] text-6xl font-bold">Don't Worry, <br />
+        <h1 className="text-[white] text-2xl sm:text-6xl font-bold">Don't Worry, <br />
           It's Organic
         </h1>
         <p className='text-[white] mt-4'>High quality medical and recreational cannabis.</p>
-        <div className='mt-12'>
+        <div className='mt-4 sm:mt-12'>
           <Button onClick={() => { }}>Make order</Button>
         </div>
       </div>
