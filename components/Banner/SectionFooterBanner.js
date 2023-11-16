@@ -7,9 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 
 
 const SectionFooterBanner = ({ reviews = [] }) => {
-  console.log({
-    reviews
-  })
+
   return (
     <section className='bg-[#fafbfa] py-5'>
       <div className='container pt-10 flex-col justify-center items-center mx-auto'>
