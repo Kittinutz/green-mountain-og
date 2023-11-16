@@ -13,7 +13,7 @@ const HeaderNavigator = () => {
         <a>Contract Us</a>
       </div>
       <button className='hidden md:block bg-primary px-4 py-1 rounded bg-primary text-[white] font-semibold'>
-        What's app
+        What&#39;s app
       </button>
     </div>
   );

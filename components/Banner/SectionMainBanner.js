@@ -13,8 +13,8 @@ const SectionMainBanner = () => {
       }}
     >
       <div className='flex flex-col justify-center h-full'>
-        <h1 className="text-[white] text-2xl sm:text-6xl font-bold">Don't Worry, <br />
-          It's Organic
+        <h1 className="text-[white] text-2xl sm:text-6xl font-bold">Don&#39;t Worry, <br />
+          It&#39;s Organic
         </h1>
         <p className='text-[white] mt-4'>High quality medical and recreational cannabis.</p>
         <div className='mt-4 sm:mt-12'>
