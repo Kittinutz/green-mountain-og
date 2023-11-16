@@ -7,7 +7,7 @@ import Button from '../Button';
 const SectionMainBanner = () => {
   return (
     <section
-      className='px-16 py-8 sm:px-28 sm:py-20 mt-[85px] bg-no-repeat bg-clip-border	bg-cover bg-scroll bg-center h-[50px] h-[400px] sm:h-[700px]'
+      className='h-[400px] px-16 py-8 sm:px-28 sm:py-20 mt-[85px] bg-no-repeat bg-clip-border	bg-cover bg-scroll bg-center h-[400px] sm:h-[700px]'
       style={{
         backgroundImage: `url('./asset/banner-image.jpeg')`,
       }}

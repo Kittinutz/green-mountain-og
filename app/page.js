@@ -9,20 +9,17 @@ import Image from 'next/image'
 
 export default async function Home() {
   const products = await getProduct()
-  const review = await getReviews()
-  console.log({
-    review
-  })
+  const reviews = await getReviews()
+
   return (
     <main className="relative">
-
       <Head>
         <title >Green Mountain OG</title>
         <meta property="og:title" content="Green Mountain OG" key="title" />
       </Head>
       <SectionMainBanner />
       <ProductLanding products={products} />
-      <SectionFooterBanner />
+      <SectionFooterBanner reviews={reviews} />
     </main>
   )
 }
