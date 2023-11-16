@@ -7,7 +7,7 @@ const HeaderNavigator = () => {
       <Image src={Logo} alt='Green mountain og logo' />
       <div className='hidden md:block text-[#000] flex space-x-6'>
         <a className='hover:text-[red] hover:underline'>
-          Product
+          Products
         </a>
         <a>Review</a>
         <a>Contract Us</a>
