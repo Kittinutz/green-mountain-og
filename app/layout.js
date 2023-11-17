@@ -6,7 +6,7 @@ const popins = Poppins({ weight: ['400', '600', '800'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'Green Mountain OG',
-  description: 'Welcome to Green Mountain OG We are provide premium herb with good price!!!',
+  description: 'Discover the best cannabis shop in Patong! Green Mountain OG offers top-quality products and exceptional service. Visit us for a premium experience today!',
 }
 
 export default function RootLayout({ children }) {
