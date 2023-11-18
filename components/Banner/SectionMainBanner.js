@@ -18,7 +18,7 @@ const SectionMainBanner = () => {
         </h1>
         <p className='text-[white] mt-4'>Discover the best cannabis shop in Patong! Green Mountain OG offers top-quality products and exceptional service. Visit us for a premium experience today!</p>
         <div className='mt-4 sm:mt-12'>
-          <Button onClick={() => { }}>Make order</Button>
+          <a href="https://wa.me/66994605162?text=I'm%20interested%20in%20your%20dispensary%20serivce">Make order</a>
         </div>
       </div>
     </section>
