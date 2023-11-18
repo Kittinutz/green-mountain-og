@@ -7,9 +7,15 @@ import Hungry from '@/public/asset/feel/hungry.svg'
 import Sleepy from '@/public/asset/feel/sleepy.svg'
 import Euphoric from '@/public/asset/feel/euphoric.svg'
 import TalkActive from '@/public/asset/feel/talkActive.svg'
+import Energetic from '@/public/asset/feel/energetic.svg'
+import Creative from '@/public/asset/feel/creative.svg'
+import Uplifted from '@/public/asset/feel/uplifted.svg'
+import Giggly from '@/public/asset/feel/giggly.svg'
 const ProductItem = ({
   name = 'Platinum Kush Breath',
-  type = 'Hybrid',
+  type = 'Indica',
+  thcDisplay = '> 20%',
+  cbdDisplay = '< 1%',
   recommended = false,
   terpene = 'Caryophyllene',
   effective = ' Anti - Inflammatory',
@@ -23,7 +29,11 @@ const ProductItem = ({
     'relaxed',
     'sleepy',
     'euphoric',
-    'talkactive'
+    'talkactive',
+    'energetic',
+    'creative',
+    'uplifted',
+    'giggly'
   ]
 }) => {
   const mapping = {
@@ -32,7 +42,12 @@ const ProductItem = ({
     'relaxed': Relaxed,
     'sleepy': Sleepy,
     'euphoric': Euphoric,
-    'talkactive': TalkActive
+    'talkactive': TalkActive,
+    'energetic': Energetic,
+    'creative': Creative,
+    'uplifted': Uplifted,
+    'giggly': Giggly
+
   }
 
   return (
@@ -66,7 +81,7 @@ const ProductItem = ({
               THC
             </p>
             <p className='text-xl font-bold'>
-              {`>`} 20%
+              {thcDisplay}
             </p>
           </div>
           <div className='w-1/3'>
@@ -74,7 +89,7 @@ const ProductItem = ({
               CBD
             </p>
             <p className='text-xl font-bold'>
-              {`<`} 1%
+              {cbdDisplay}
             </p>
           </div>
           <div className='w-1/3'>
@@ -122,7 +137,7 @@ const ProductItem = ({
               Smell
             </p>
             <p className='w-3/4 font-semibold'>
-              {smell.join(', ')}.
+              {smell[0]}.
             </p>
           </div>
         </div>

@@ -9,7 +9,7 @@ const ProductLanding = ({ products = [] }) => {
         <div className='grid md:grid-cols-2 lg:grid-cols-3'>
           {
             products.map(v => {
-              return <ProductItem key={v.name} />
+              return <ProductItem key={v.name} {...v} />
             })
           }
         </div>

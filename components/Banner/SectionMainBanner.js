@@ -16,7 +16,7 @@ const SectionMainBanner = () => {
         <h1 className="text-[white] text-2xl sm:text-6xl font-bold">Don&#39;t Worry, <br />
           It&#39;s Organic
         </h1>
-        <p className='text-[white] mt-4'>High quality medical and recreational cannabis.</p>
+        <p className='text-[white] mt-4'>Discover the best cannabis shop in Patong! Green Mountain OG offers top-quality products and exceptional service. Visit us for a premium experience today!</p>
         <div className='mt-4 sm:mt-12'>
           <Button onClick={() => { }}>Make order</Button>
         </div>
